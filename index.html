@@ -7,7 +7,7 @@
   <meta name="keywords" content="" />
   <meta name="description" content="Our conversion-focused hotel booking engine, creative digital marketing and award-winning web design are your hotel’s toolkit to maximize your direct bookings." />
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -19,6 +19,11 @@
   	font-family: 'Open Sans', sans-serif;
   	font-size: 20px;
     color: #383838;
+  }
+
+  .p-wt {
+    margin-right: 400px;
+    margin-left: 400px;
   }
 
   .bg-1 {
@@ -41,7 +46,7 @@
    }
 
    .responsive {
-     width: 100%;
+     max-width: 100%;
      height: auto;
    }
 
@@ -56,12 +61,14 @@
     background-color: #ffba00; /* Yellow */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 24px;
+    font-weight: bold;
     font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
 }
 
   </style>
@@ -71,39 +78,41 @@
 
   <div class="header">
     <div class="container-fluid text-center">
-      <img class="margin" src="assets/images/colored-logo.png" alt="">
+      <img class="responsive" src="assets/images/colored-logo.png" alt="">
     </div>
   </div>
 
   <div class="banner">
     <img src="assets\images\banner.jpg" alt="" class="responsive" style="width:100%;">
-    <div class="centered"><h1>WELCOME TO THE AFFINITY HOTEL</h1>
-      <button type="button" class="button">BOOK NOW</button></div>
+    <div class="centered"><h1 style="font-size:2.5vw;">WELCOME TO THE AFFINITY HOTEL</h1>
+      <br><button type="button" class="button" style="font-size:1.5vw;">BOOK NOW</button></div>
 
   </div>
 
-  <div class="welcome-text">
-    <div class="container-fluid bg-1">
-      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien lacus, lobortis vel sem porta, imperdiet convallis neque. Curabitur in luctus nibh. Donec odio lectus, faucibus et tortor eget, malesuada convallis odio. Pellentesque pretium est nibh, nec rhoncus elit sodales at.
+  <div class="row welcome-text bg-1">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8 container-fluid ">
+      <p class="text-center" style="font-size:1.1vw;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien lacus, lobortis vel sem porta, imperdiet convallis neque. Curabitur in luctus nibh. Donec odio lectus, faucibus et tortor eget, malesuada convallis odio. Pellentesque pretium est nibh, nec rhoncus elit sodales at.
       <br><br>
       Nullam tellus elit, auctor sit amet erat quis, efficitur sagittis felis. Nunc eget fermentum leo. Sed ut lorem leo. Cras ac mattis mi, sit amet dapibus urna.</p>
     </div>
+    <div class="col-sm-2"></div>
   </div>
 
   <div class="features">
     <div class="container-fluid text-center">
       <div class="row">
         <div class="col-sm-4">
-          <img src="assets\images\features-01.jpg" alt="" data-holder-rendered="true" />
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <img src="assets\images\features-01.jpg" alt="" class="responsive"/>
+          <p style="font-size:1vw;" class="bg-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
         <div class="col-sm-4 bg-1">
-          <img src="assets\images\features-02.jpg" alt="" />
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <img src="assets\images\features-02.jpg" alt="" class="responsive"/>
+          <p style="font-size:1vw;" class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
-        <div class="col-sm-4">
-          <img src="assets\images\features-03.jpg" alt="" />
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div class="col-sm-4 bg-1">
+          <img src="assets\images\features-03.jpg" alt="" class="responsive"/>
+          <p style="font-size:1vw;" class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
       </div>
     </div>
@@ -112,15 +121,15 @@
   <footer class="container-fluid bg-2">
     <div class="container-fluid text-md-left">
       <div class="row">
-        <div class="col-md-6 mt-md-0 mt-3 text-left">
-          <p style="color:white;">The Affinity Hotel, Unit 1C, The Forum, Ballymoss Road,<br>
+        <div class="col-md-1 mb-md-0 mb-3"></div>
+        <div class="col-md-5 mb-md-0 mb-3 text-left">
+          <p style="color:white; font-size:1vw;">The Affinity Hotel, Unit 1C, The Forum, Ballymoss Road,<br>
             Sandyford, Dublin 18, D18 VE83, Ireland<br>
             IRL: +353 1 293 9906     Email: sales@netaffinity.com</p>
         </div>
+        <div class="col-md-3 mb-md-0 mb-3"></div>
         <div class="col-md-3 mb-md-0 mb-3">
-      </div>
-        <div class="col-md-3 mb-md-0 mb-3">
-          <img src="assets\images\white-logo.png" alt="" />
+          <img src="assets\images\white-logo.png" alt="" class="responsive"/>
         </div>
       </div>
     </div>
