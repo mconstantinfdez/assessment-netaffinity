@@ -1,0 +1,107 @@
+  p {
+  	font-family: 'Open Sans', sans-serif;
+  	font-size: 20px;
+    color: #383838;
+  }
+
+  .title-card {
+        color: #ffba00;
+        text-transform: uppercase;
+        font-weight: bold;
+  }
+
+  .bg-1 {
+        background-color: #f7f7f7; /* Gray */
+    }
+
+  .bg-2 {
+        background-color: #383838; /* Drak Gray */
+    }
+
+  .container-fluid {
+       padding-top: 40px;
+       padding-bottom: 40px;
+   }
+
+   .container-card {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+   .banner {
+       position: relative;
+       text-align: center;
+       color: white;
+       background: black;
+   }
+
+   .darken {
+   	opacity: 0.6;
+   }
+
+   .responsive {
+     max-width: 100%;
+     height: auto;
+   }
+
+   .centered {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+   }
+
+   .button {
+    background-color: #ffba00; /* Yellow */
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 2s ease-in-out;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
