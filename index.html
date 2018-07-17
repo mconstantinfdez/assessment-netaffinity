@@ -11,13 +11,14 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
   <style>
 
   p {
-  	font-family: "Monsterrat";
+  	font-family: 'Open Sans', sans-serif;
   	font-size: 20px;
-    color: #ff0000;
+    color: #383838;
   }
 
   .bg-1 {
@@ -51,6 +52,18 @@
      transform: translate(-50%, -50%);
    }
 
+   .button {
+    background-color: #ffba00; /* Yellow */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
   </style>
 
 </head>
@@ -64,8 +77,9 @@
 
   <div class="banner">
     <img src="assets\images\banner.jpg" alt="" class="responsive" style="width:100%;">
-    <div class="centered">WELCOME TO THE AFFINITY HOTEL</div>
-    <button type="button" class="centered">BOOK NOW</button>
+    <div class="centered"><h1>WELCOME TO THE AFFINITY HOTEL</h1>
+      <button type="button" class="button">BOOK NOW</button></div>
+
   </div>
 
   <div class="welcome-text">
@@ -99,7 +113,7 @@
     <div class="container-fluid text-md-left">
       <div class="row">
         <div class="col-md-6 mt-md-0 mt-3 text-left">
-          <p>The Affinity Hotel, Unit 1C, The Forum, Ballymoss Road,<br>
+          <p style="color:white;">The Affinity Hotel, Unit 1C, The Forum, Ballymoss Road,<br>
             Sandyford, Dublin 18, D18 VE83, Ireland<br>
             IRL: +353 1 293 9906     Email: sales@netaffinity.com</p>
         </div>
